@@ -2,5 +2,8 @@
 {%for i in articles%}
 <h1>{{i.title}}</h1>
 <i class="date">{{i.created_at}}</i>
-<div class="article"><p class="para">{{i.body}}</p></div>
+<div class="article">
+    <p class="para">{{ i.body|linebreaksbr }}</p>
+
+</div>
 {% endfor%}

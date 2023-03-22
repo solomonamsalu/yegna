@@ -1,6 +1,6 @@
 h1{
     text-align: center;
-    padding:30px;
+    padding:20px;
 
   
   }
@@ -21,13 +21,27 @@ h1{
       background-color:darkcyan
   }
   .article{
-      margin-left: 100px;
+      margin-left: 150px;
       margin-right: 100px;
+      width: 1000px;
       overflow:auto;
-      background-color: blue;
+      background-color:rgb(0, 0, 205);
+      color: white;
+      opacity:1;
+    
   }
   .para{
+    background-color:rgb(106, 90, 205);
+    color:white;
     padding:40px;
+    font-family: Open Sans,sans-serif;
+    font-size:large;
+    opacity:3;
+    word-wrap: break-word;
+    border:none;
+    white-space: pre-wrap;
+    resize: none;
+
   }
   .date{
     float: right;
