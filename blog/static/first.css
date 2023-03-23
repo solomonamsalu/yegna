@@ -34,8 +34,8 @@ h1{
     
   }
   .para{
-    background-color:rgb(106, 90, 205);
-    color:white;
+    background-color:lightblue;
+    color:hsl(0, 100%, 1%);
     padding:60px,20px;
     font-family: Open Sans,sans-serif;
     font-size:large;
@@ -50,4 +50,16 @@ h1{
   .date{
     float: right;
   }
-  
+  .sidenav{
+    width:300px;
+    height: 400px;
+    background-color: #FF3366;
+    list-style-type: none;
+    color:white
+
+  }
+  li{
+    list-style-type: none;
+    color: white;
+
+  }
