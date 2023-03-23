@@ -13,6 +13,7 @@ h1{
       height: 150px;
       width: 150px;
       border-radius: 500%;
+      display:block;
   }
   .right{
       color: white;
@@ -62,12 +63,13 @@ h1{
     list-style-type: none;
     position:fixed;
     top:150px;
+   
   }
   li a{
     list-style-type: none;
     color: white;
     margin-left: 20px;
-
+   
   }
   .about{
     /* background-color: rgb(33, 7, 7); */
