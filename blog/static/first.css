@@ -14,19 +14,6 @@ h1{
       border-radius: 500%;
       margin-left:40px;
   }
-  .right{
-      color: white;
-      float:right;
-  }
-  .first{
-      color: white;
-      height: 150px;
-      background-color:rgb(26, 194, 194);
-      display: block;
-      
-     
-    
-  }
   .article{
       margin-left: 150px;
       width: 800px;
