@@ -1,14 +1,16 @@
 {%include 'blog/base.html'%}
+{% load static %}
 {%for i in articles%}
 <h1 class="title">{{i.title}}</h1>
 <i class="date ">{{i.created_at}}</i>
 <div class="article">
-    <p class="para text-bg-light">{{ i.body|linebreaksbr }}</p>
+    <div><p class="para text-bg-light">{{ i.body|linebreaksbr }}</p></div>
 </div>
+{% endfor%}
 <nav class="sidenav">
+<img src="{% static 'ailogo.jpeg'%}" alt="logo"><br>
     <ul class="nav flex-column">
         <li class="nav-item"><a class="nav-link" href="">solomon</a></li>
         <li class="nav-item"><a  class="nav-link" href="">amsalu</a></li>
     </ul>
 </nav>
-{% endfor%}

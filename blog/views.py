@@ -16,5 +16,3 @@ class list(generic.ListView):
             'articles': articles
         }
         return render(request,'blog/article_list.html', context)
-
-

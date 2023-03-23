@@ -3,12 +3,16 @@ h1{
     padding:5px 50px 5px 50px;
     display: block;
    }
+   .title{
+    background-color: MidnightBlue;
+    color: white;
+    padding:10px;
+   }
   img{
       float:left;
       height: 150px;
-      width: 200px;
+      width: 150px;
       border-radius: 500%;
-      margin-left:40px;
   }
   .right{
       color: white;
@@ -17,7 +21,7 @@ h1{
   .first{
       color: white;
       height: 150px;
-      background-color:rgb(26, 194, 194);
+      background-color: rgb(33, 7, 7);
       display: block;
   }
   .parent{
@@ -28,11 +32,11 @@ h1{
     position:relative;
 }
   .article{
-      margin-left: 150px;
+      margin-left: 300px;
       width: 800px;
       overflow:auto;
       opacity:1;
-      position: absolute;
+      
       right: 180px;
       top:auto;
     
@@ -52,20 +56,23 @@ h1{
     float: right;
   }
   .sidenav{
-    width:250px;
-    height: 400px;
-    background-color:#dfe5e7; 
+    width:150px;
+    height: 450px;
+    background-color:rgb(128, 63, 63); 
     list-style-type: none;
     position:fixed;
-    top:200px;
+    top:150px;
   }
   li a{
     list-style-type: none;
-    color: hwb(0 0% 94%);
+    color: white;
     margin-left: 20px;
 
   }
   .about{
+    /* background-color: rgb(33, 7, 7); */
     margin-top: 100px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    margin-right: 150px;
+    color:white;
   } 
