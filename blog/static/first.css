@@ -6,7 +6,9 @@ h1{
    .title{
     background-color: MidnightBlue;
     color: white;
-    padding:10px;
+    margin-left: 300px;
+    margin-right: 150px;
+    
    }
   img{
       float:left;
@@ -25,19 +27,11 @@ h1{
       background-color: rgb(33, 7, 7);
       display: block;
   }
-  .parent{
-    color: white;
-    height: 150px;
-    background-color:rgb(26, 194, 194);
-    display: block;
-    position:relative;
-}
   .article{
       margin-left: 300px;
       width: 800px;
       overflow:auto;
       opacity:1;
-      
       right: 180px;
       top:auto;
     
