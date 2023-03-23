@@ -1,16 +1,14 @@
 {%include 'blog/base.html'%}
 {%for i in articles%}
-<h1>{{i.title}}</h1>
-<i class="date">{{i.created_at}}</i>
+<h1 class="title">{{i.title}}</h1>
+<i class="date ">{{i.created_at}}</i>
 <div class="article">
-    <p class="para">{{ i.body|linebreaksbr }}</p>
+    <p class="para text-bg-light">{{ i.body|linebreaksbr }}</p>
 </div>
 <nav class="sidenav">
-    <ul>
-        <li><a href="/">solomon</a></li>
-        <li><a href="/">amsalu</a></li>
-       
-        muche
+    <ul class="nav flex-column">
+        <li class="nav-item"><a class="nav-link" href="/">solomon</a></li>
+        <li class="nav-item"><a  class="nav-link" href="/">amsalu</a></li>
     </ul>
     
 </nav>

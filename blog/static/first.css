@@ -1,13 +1,15 @@
 h1{
     text-align: center;
-    padding:20px;
+    padding:5px 50px 5px 50px;
     display: block;
-
-  
+    margin-top: 250px;
+  }
+  .title{
+    margin-top: 250px;
   }
   img{
       float:left;
-      height: 200px;
+      height: 150px;
       width: 200px;
       border-radius: 500%;
       margin-left:40px;
@@ -18,32 +20,31 @@ h1{
   }
   .first{
       color: white;
-      height: 200px;
-      background-color:darkcyan
+      height: 150px;
+      background-color:rgb(26, 194, 194);
+      display: block;
+      
+     
+    
   }
   .article{
       margin-left: 150px;
       width: 800px;
       overflow:auto;
-      background-color:rgb(0, 0, 205);
-      color: white;
       opacity:1;
       position: absolute;
-      right: 100px;
+      right: 180px;
       top:auto;
     
   }
   .para{
-    background-color:lightblue;
     color:hsl(0, 100%, 1%);
-    padding:60px,20px;
+    padding-top:40px;
+    padding-left:20px;
     font-family: Open Sans,sans-serif;
     font-size:large;
-    opacity:3;
-    word-wrap: break-word;
     border:none;
-    white-space: pre-wrap;
-    resize: none;
+   
     
 
   }
@@ -51,15 +52,16 @@ h1{
     float: right;
   }
   .sidenav{
-    width:300px;
+    width:250px;
     height: 400px;
-    background-color: #FF3366;
+    background-color:#dfe5e7; 
     list-style-type: none;
-    color:white
-
+    position:fixed;
+    top:200px;
   }
-  li{
+  li a{
     list-style-type: none;
-    color: white;
+    color: hwb(0 0% 94%);
+    margin-left: 20px;
 
   }
