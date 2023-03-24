@@ -2,9 +2,9 @@
 {% load static %}
 {%for i in articles%}
 <h1 class="title">{{i.title}}</h1>
-<i class="date ">{{i.created_at}}</i>
+<i style="color:white" class="date ">{{i.created_at}}</i>
 <div class="article">
-    <div><p class="para text-bg-light">{{ i.body|linebreaksbr }}</p></div>
+    <div><p>{{ i.body|linebreaksbr }}</p></div>
 </div>
 {% endfor%}
 <nav class="sidenav">

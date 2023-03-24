@@ -1,19 +1,36 @@
-h1{
+.ft{
     text-align: center;
     padding:5px 50px 5px 50px;
     display: block;
+    font-size:xx-large;
+    color:white;
+    padding:50px;
+    margin-left:150px;
+    margin-top: 110px;
+    text-shadow: 2px 2px #FF0000; 
+    font-size:40px;
+
+   }
+   .lo{
+    text-shadow: 2px 2px #FF0000; 
+    text-transform:uppercase; 
+    padding-top: 30px;
+    transform: skelY(1.5);
+    font-size: 70px;
+    text-align: center;
+    
    }
    .title{
-    background-color: MidnightBlue;
     color: white;
     margin-left: 300px;
     margin-right: 250px;
-    
+    font-size:50px;
+    text-shadow: 2px 2px #FF0000; 
    }
   img{
       float:left;
-      height: 100px;
-      width: 100px;
+      height: 120px;
+      width: 120px;
       border-radius: 500%;
       display:block;
   }
@@ -22,11 +39,8 @@ h1{
       float:right;
   }
   .first{
-      color: white;
-      height: 100px;
-      background-color: hsl(0, 100%, 2%);
-      display: block;
-      
+      color:Snow;
+      height: 150px;
   }
   .article{
       margin-left: 300px;
@@ -35,7 +49,9 @@ h1{
       opacity:1;
       right: 180px;
       top:auto;
-    
+      color:rgb(226, 214, 214);
+      font-size:large;
+      
   }
   .para{
     color:hsl(0, 100%, 1%);
@@ -54,22 +70,21 @@ h1{
   .sidenav{
     width:150px;
     height: 500px;
-    background-color:rgb(128, 63, 63); 
+    /* background-color:LightCyan;  */
     list-style-type: none;
     position:fixed;
     top:100px;
+    /* background-color:DarkBlue; */
    
   }
-  li a{
+  .sidl{
     list-style-type: none;
     color: white;
     margin-left: 20px;
    
   }
   .about{
-    /* background-color: rgb(33, 7, 7); */
-    margin-top: 100px;
-    /* margin-left: 100px; */
     margin-right: 150px;
     color:white;
+    margin-left:300px;
   } 
