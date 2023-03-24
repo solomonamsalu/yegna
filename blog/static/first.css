@@ -1,14 +1,10 @@
 .ft{
-    text-align: center;
-    padding:5px 50px 5px 50px;
-    display: block;
-    font-size:xx-large;
-    color:white;
-    padding:50px;
-    margin-left:150px;
-    margin-top: 110px;
-    text-shadow: 2px 2px #FF0000; 
-    font-size:40px;
+  text-shadow: 2px 2px #FF0000; 
+  text-transform:uppercase; 
+  padding-top: 30px;
+  transform: skelY(1.5);
+  font-size: 50px;
+  text-align: center;
 
    }
    .lo{
@@ -16,23 +12,26 @@
     text-transform:uppercase; 
     padding-top: 30px;
     transform: skelY(1.5);
-    font-size: 70px;
     text-align: center;
+    float:right;
+    font-size: large;
     
    }
    .title{
     color: white;
     margin-left: 300px;
     margin-right: 250px;
-    font-size:50px;
-    text-shadow: 2px 2px #FF0000; 
+    font-size:60px; 
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    opacity: 1;
    }
   img{
-      float:left;
-      height: 120px;
-      width: 120px;
+      height: 80px;
+      width: 70px;
       border-radius: 500%;
-      display:block;
+      float:left;
   }
   .phone{
       color: white;
@@ -44,13 +43,15 @@
   }
   .article{
       margin-left: 300px;
-      width: 800px;
+      width: 900px;
       overflow:auto;
       opacity:1;
       right: 180px;
       top:auto;
       color:rgb(226, 214, 214);
-      font-size:large;
+      font-size:xx-large;
+      font-family: sans-serif;
+      background:transparent;
       
   }
   .para{
@@ -70,11 +71,10 @@
   .sidenav{
     width:150px;
     height: 500px;
-    /* background-color:LightCyan;  */
     list-style-type: none;
     position:fixed;
     top:100px;
-    /* background-color:DarkBlue; */
+    
    
   }
   .sidl{
@@ -84,7 +84,11 @@
    
   }
   .about{
-    margin-right: 150px;
     color:white;
-    margin-left:300px;
+    opacity:1;
+   
+  } 
+  .body{
+    background-color: rgb(7, 7, 58);
+    opacity: 1;
   } 
