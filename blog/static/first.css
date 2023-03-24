@@ -7,25 +7,26 @@ h1{
     background-color: MidnightBlue;
     color: white;
     margin-left: 300px;
-    margin-right: 150px;
+    margin-right: 250px;
     
    }
   img{
       float:left;
-      height: 150px;
-      width: 150px;
+      height: 100px;
+      width: 100px;
       border-radius: 500%;
       display:block;
   }
-  .right{
+  .phone{
       color: white;
       float:right;
   }
   .first{
       color: white;
-      height: 150px;
-      background-color: rgb(33, 7, 7);
+      height: 100px;
+      background-color: hsl(0, 100%, 2%);
       display: block;
+      
   }
   .article{
       margin-left: 300px;
@@ -52,11 +53,11 @@ h1{
   }
   .sidenav{
     width:150px;
-    height: 450px;
+    height: 500px;
     background-color:rgb(128, 63, 63); 
     list-style-type: none;
     position:fixed;
-    top:150px;
+    top:100px;
    
   }
   li a{

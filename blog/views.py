@@ -11,7 +11,7 @@ class list(generic.ListView):
     def get(self, request, *args, **kwargs):
         
 
-        articles = Article.objects.all().order_by('-created_at')
+        articles = Article.objects.all().order_by('-created_at')[:10]
         context = {
             'articles': articles
         }
