@@ -42,7 +42,7 @@
       height: 150px;
   }
   .article{
-      margin-left: 300px;
+      margin-left: 250px;
       width: 900px;
       overflow:auto;
       opacity:1;
@@ -68,7 +68,7 @@
   .date{
     float: right;
   }
-  .sidenav{
+  .footer{
     width:150px;
     height: 500px;
     list-style-type: none;
@@ -77,20 +77,12 @@
     
    
   }
-  .sidl{
-    list-style-type: none;
-    color: white;
-    margin-left: 20px;
-   
-  }
   .about{
     color:white;
     opacity:1;
    
   } 
   .body{
-    /* background-color:#212F3D ;
-    background-color: rgb(7, 7, 58); */
     opacity: 1;
     background-color:#2d3c49;
     transition: background-color 1s ease-in-out;

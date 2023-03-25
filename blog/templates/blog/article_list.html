@@ -1,5 +1,6 @@
-{%include 'blog/base.html'%}
+{%extends 'blog/base.html'%}
 {% load static %}
+{%block msg%}
 {%for i in articles%}
 <h1 class="title">{{i.title}}</h1>
 <i style="color:white" class="date ">{{i.created_at}}</i>
@@ -7,10 +8,4 @@
     <div><p>{{ i.body|linebreaksbr }}</p></div>
 </div>
 {% endfor%}
-<nav class="sidenav">
-
-    <ul class="nav flex-column">
-        <li class="nav-item"><a class="nav-link" href="">solomon</a></li>
-        <li class="nav-item"><a  class="nav-link" href="">amsalu</a></li>
-    </ul>
-</nav>
+{%endblock%}
