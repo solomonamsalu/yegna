@@ -94,7 +94,6 @@
     opacity: 1;
     background-color:#2d3c49;
     transition: background-color 1s ease-in-out;
-    opacity:0.8; 
   } 
   body:hover{
     background-color:#1B4F72; 
